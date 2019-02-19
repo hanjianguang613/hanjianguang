@@ -1,0 +1,34 @@
+C- nx {INT} -- nz {INT} -- dx [m] -- dz [m] ----------------------- ! grid parameters
+   401         401         10.0       10.0 
+C- dt [s] -- nt[int]----------------------------------------------- ! time parameters
+   0.002     1501
+C- the distance of traces(dis_trace)
+   10.0
+C- The number of shot(n_shot)
+   1
+C- The shot intervel(shot_itv/m)
+   0.0
+C- the coordinate of first shot(m)
+   2000.0
+C- fmin [Hz] -- fmax[Hz]------------------------------------------- ! Minimum and Maximun frequency
+   10.0          50.0
+C- input the name of velocity file<a1111>-------------------------- ! anisotropic elastic parameter file
+   a1111.dat
+C- input the name of velocity file<a3333>-------------------------- ! 
+   a3333.dat
+C- input the name of velocity file<a1133>-------------------------- ! 
+   a1133.dat
+C- input the name of velocity file<a1313>-------------------------- ! 
+   a1313.dat
+C- input the name of velocity file<a1113>-------------------------- !
+   a1113.dat
+C- input the name of velocity file<a3313>-------------------------- !
+   a3313.dat
+C- input the name of velocity file<epsilon>------------------------ ! epsilon file
+   epsilon.dat
+C- input the name of velocity file<delta>-------------------------- ! velocity file
+   delta.dat
+C- input the name of Zero-Offset seismic profile<seifile>---------- ! seismic profile
+   threelevelTTI.sgy
+C- input the name of migration profile<migfile>-------------------- ! migration profile(binary data)
+   threelevelTTI-mig-TTI.sgy
